@@ -1,2 +1,3 @@
 # auth-notes-api
-thanks
+First commit from my laptop.
+
