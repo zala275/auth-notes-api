@@ -1,6 +1,14 @@
 #include <stdio.h>
 
 int main () {
-    printf("Hello, GITHUB!\n ");
-    return 0;
-}
+  for(int i=1; i<=10; i++) {
+
+    printf("count: %d\n",i);
+
+  }
+  return 0;
+  } 
+
+
+
+
