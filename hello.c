@@ -1,14 +1,33 @@
 #include <stdio.h>
 
-int main () {
-  for(int i=1; i<=10; i++) {
+int isEven(int x){
+  if(x==%2==0){
 
-    printf("count: %d\n",i);
+    return 1;
 
+  
   }
-  return 0;
-  } 
+  else{
+return 0;
+  }
+ 
+  }
+
+int main (){
+
+for(i=1; i<=10; i++)
+{
+
+  if(isEven(i))
+  {
+    printf("%d is  even\n",i);
+  }
+}
+
+    return 0;
+  
 
 
+}
 
 
