@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int isEven(int x){
-  if(x==%2==0){
+  if(x%2==0){
 
     return 1;
 
@@ -14,7 +14,7 @@ return 0;
   }
 
 int main (){
-
+int i;
 for(i=1; i<=10; i++)
 {
 
