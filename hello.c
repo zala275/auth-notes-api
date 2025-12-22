@@ -7,6 +7,7 @@ if (n%2==0){
  }
 
  int main(){
+  int i;
   for(i=1; i<=10; i++){
     printf(i);
   }
