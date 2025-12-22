@@ -1,8 +1,8 @@
 #include<stdio.h>
  void printEven(int n){
 
-if (n%2==0){
-  printf("%d is even\n",n);
+if (n % 2 == 0){
+  printf("%d is even\n", n);
 }
  }
 
