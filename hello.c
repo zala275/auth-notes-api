@@ -1,16 +1,15 @@
-#include<stdio.h>
- void printEven(int n){
+#include <stdio.h>
 
-if (n % 2 == 0){
-  printf("%d is even\n", n);
+void printEven(int n){
+    if (n % 2 == 0){
+        printf("%d is even\n", n);
+    }
 }
- }
 
- int main(){
-  int i;
-  for(i=1; i<=10; i++){
-    printEven(i);
-  }
- 
- return 0;
+int main(){
+    int i;
+    for(i = 1; i <= 10; i++){
+        printEven(i);
+    }
+    return 0;
 }
