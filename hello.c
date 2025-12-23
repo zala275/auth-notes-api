@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    int x=5;
+    int x=7;
 
 
     if (x>5){
