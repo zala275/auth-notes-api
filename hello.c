@@ -9,17 +9,17 @@ int main(){
             printf(" kemn\n");
             break;
         case 2:
-        printf("zala\n");
-        break;
+          printf("zala\n");
+          break;
         case 3:
-            printf("om\n")
+            printf("om\n");
               break;   
         case 4:
-        printf("ok\n");
-        break;
+          printf("ok\n");
+           break;
         
         default:
-        printf("error\n");
+         printf("error\n");
     }
     
     return 0;
